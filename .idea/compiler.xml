@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
+        <module name="config-service" />
+        <module name="ms-desc-client-frecuente" />
+        <module name="gateway-service" />
+        <module name="ms-rack-semanal" />
+        <module name="ms-config-tarifa-duracion" />
+        <module name="ms-reportes" />
+        <module name="ms-desc-num-personas" />
+        <module name="ms-tarifa-especial" />
+      </profile>
+      <profile name="Annotation profile for ms-reserva-comprobante" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="ms-reserva-comprobante" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-service" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="ms-config-tarifa-duracion" options="-parameters" />
+      <module name="ms-desc-client-frecuente" options="-parameters" />
+      <module name="ms-desc-num-personas" options="-parameters" />
+      <module name="ms-rack-semanal" options="-parameters" />
+      <module name="ms-reportes" options="-parameters" />
+      <module name="ms-reserva-comprobante" options="-parameters" />
+      <module name="ms-tarifa-especial" options="-parameters" />
+    </option>
+  </component>
+</project>

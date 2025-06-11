@@ -1,4 +1,4 @@
-package org.example.tarifaespecial.entities;
+package com.example.tarifaespecial.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

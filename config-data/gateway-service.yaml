@@ -21,37 +21,37 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "*"
       routes:
-        - id: ms-booking
-          uri: lb://ms-booking
+        - id: ms-config-tarifa-duracion
+          uri: lb://ms-config-tarifa-duracion
           predicates:
-            - Path=/booking/**
+            - Path=/tarifas/**
 
-        - id: ms-discounts1
-          uri: lb://ms-discounts1
+        - id: ms-desc-client-frecuente
+          uri: lb://ms-desc-client-frecuente
           predicates:
-            - Path=/discounts1/**
+            - Path=/clientes/**
 
-        - id: ms-discounts2
-          uri: lb://ms-discounts2
+        - id: ms-desc-num-personas
+          uri: lb://ms-desc-num-personas
           predicates:
-            - Path=/discounts2/**
+            - Path=/descuento-grupo/**
 
-        - id: ms-rack
-          uri: lb://ms-rack
+        - id: ms-rack-semanal
+          uri: lb://ms-rack-semanal
           predicates:
             - Path=/rack/**
 
-        - id: ms-rates
-          uri: lb://ms-rates
+        - id: ms-reportes
+          uri: lb://ms-reportes
           predicates:
-            - Path=/rates/**
+            - Path=/reportes/**
 
-        - id: ms-reports
-          uri: lb://ms-reports
+        - id: ms-reserva-comprobante
+          uri: lb://ms-reserva-comprobante
           predicates:
-            - Path=/reports/**
+            - Path=/reservas/**
 
-        - id: ms-special-rates
-          uri: lb://ms-special-rates
+        - id: ms-tarifa-especial
+          uri: lb://ms-tarifa-especial
           predicates:
-            - Path=/special-rates/**
+            - Path=/tarifa-especial/**

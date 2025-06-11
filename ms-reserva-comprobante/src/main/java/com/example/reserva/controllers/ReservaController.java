@@ -1,4 +1,4 @@
-package org.example.reserva.controllers;
+package com.example.reserva.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.example.reserva.entities.ComprobanteEntity;

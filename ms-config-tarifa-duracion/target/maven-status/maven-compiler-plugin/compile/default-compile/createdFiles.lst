@@ -1,0 +1,5 @@
+org\example\tarifas\services\TarifaService.class
+org\example\Main.class
+org\example\tarifas\controllers\TarifaController.class
+org\example\tarifas\entities\TarifaEntity.class
+org\example\tarifas\repositories\TarifaRepository.class

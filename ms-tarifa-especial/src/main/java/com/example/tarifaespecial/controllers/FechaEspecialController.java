@@ -1,8 +1,8 @@
-package org.example.tarifaespecial.controllers;
+package com.example.tarifaespecial.controllers;
 
 import lombok.RequiredArgsConstructor;
-import org.example.tarifaespecial.entities.FechaEspecialEntity;
-import org.example.tarifaespecial.services.FechaEspecialService;
+import com.example.tarifaespecial.entities.FechaEspecialEntity; // CORREGIDO: cambiar org.example por com.example
+import com.example.tarifaespecial.services.FechaEspecialService; // CORREGIDO: cambiar org.example por com.example
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;

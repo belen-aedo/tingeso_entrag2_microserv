@@ -1,0 +1,5 @@
+org\example\racksemanal\services\RackService.class
+org\example\racksemanal\entities\BloqueHorario.class
+org\example\Main.class
+org\example\racksemanal\controllers\RackController.class
+org\example\racksemanal\models\OcupacionDTO.class

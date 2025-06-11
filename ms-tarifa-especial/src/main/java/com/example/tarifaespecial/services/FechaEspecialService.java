@@ -1,8 +1,8 @@
-package org.example.tarifaespecial.services;
+package com.example.tarifaespecial.services;
 
 import lombok.RequiredArgsConstructor;
-import org.example.tarifaespecial.entities.FechaEspecialEntity;
-import org.example.tarifaespecial.repositories.FechaEspecialRepository;
+import com.example.tarifaespecial.entities.FechaEspecialEntity; // CORREGIDO: cambiar org.example por com.example
+import com.example.tarifaespecial.repositories.FechaEspecialRepository; // CORREGIDO: cambiar org.example por com.example
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
