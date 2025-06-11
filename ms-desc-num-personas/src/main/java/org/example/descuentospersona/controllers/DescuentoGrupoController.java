@@ -11,8 +11,8 @@ public class DescuentoGrupoController {
 
     private final DescuentoGrupoService service;
 
-    @GetMapping
-    public double obtenerDescuento(@RequestParam int personas) {
+    @GetMapping("/{personas}")
+    public double obtenerDescuento(@PathVariable int personas) {
         return service.calcularDescuento(personas);
     }
 }
